@@ -71,7 +71,7 @@ export default function SpecialOffers() {
           {specialOffers.map((offer, i) => (
             <div
               key={i}
-              className="min-w-[260px] border border-blue-300 rounded-2xl p-4 bg-blue-50"
+              className="min-w-65 border border-blue-300 rounded-2xl p-4 bg-blue-50"
             >
               <h3 className="font-semibold text-gray-800">
                 {offer.title}
@@ -95,7 +95,7 @@ export default function SpecialOffers() {
 
         {/* View All */}
         <div className="text-center mt-10">
-          <button className="bg-gradient-to-r from-blue-700 to-blue-900 text-white px-8 py-2 rounded-full text-sm">
+          <button className="bg-linear-to-r from-blue-700 to-blue-900 text-white px-8 py-2 rounded-full text-sm">
             VIEW ALL
           </button>
         </div>
