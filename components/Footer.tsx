@@ -19,7 +19,7 @@ export default function Footer() {
     const active = footerTabs.find(t => t.id === activeTab)!
 
     return (
-        <footer className="bg-gradient-to-b from-blue-900 to-blue-800 text-white">
+        <footer className="bg-linear-to-b from-blue-900 to-blue-800 text-white">
 
             {/* ================= TABS HEADER ================= */}
             <div className="max-w-7xl mx-auto px-6 pt-10">
